@@ -1,0 +1,28 @@
+body{
+    background-size: cover;
+}
+
+.heading{
+    font-size: 25px;
+    width: 100%;
+    margin: 0px;
+    color: rgb(12, 18, 75);
+}
+
+.note{
+    font-size: 15px;
+    color: rgb(0, 255, 255);
+}
+
+canvas{
+    border: 5px solid grey;
+    border-radius: 25px;
+    animation-name:example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes example{
+    from{box-shadow: 5px 5px 40px turquoise;}
+    to{box-shadow: 5px 5px 40px teal;}
+}
